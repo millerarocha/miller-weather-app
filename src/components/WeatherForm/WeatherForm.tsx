@@ -13,7 +13,7 @@ const WeatherForm: React.FC<WeatherFormProps> = ({ onSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-4">
+    <form onSubmit={handleSubmit} >
       <input
         type="text"
         value={city}
